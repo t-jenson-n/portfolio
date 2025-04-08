@@ -111,22 +111,33 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
     .banner {
         max-width: 70vw;
+        max-height: 40vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 60vh;
-        margin: auto ;
+        height: 50vh;
+        margin-top: 60px ;
+        margin-bottom: 10px;
     }
 
     .banner img {
         height: 40vh;
-        width: 80vw;
-    
-        object-fit: cover; 
+        object-fit: cover;
         object-position: right;
     }
+
+    .name{
+        padding-top:none;
+        margin-top: 20px;
+    }
+
     nav {
         padding-top: 20px;
         flex-wrap: wrap;
