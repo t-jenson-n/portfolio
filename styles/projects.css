@@ -76,10 +76,11 @@ iframe {
 
     main {
         grid-template-columns: 1fr;
-        width: 80vw;
-
     }
 
+    .content {
+        width: 80vw;
+    }
 
     .span {
         grid-column: span 1;
@@ -102,7 +103,10 @@ iframe {
 
 @media screen and (max-width: 600px) {
     main {
-        width: 93vw;
-        max-width: 580px;
+        max-width: 600px;
+    }
+
+    .content {
+        width: auto;
     }
 }
