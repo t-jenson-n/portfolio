@@ -3,7 +3,6 @@ main {
     display: grid;
     grid-template-columns: 1fr  2fr;
     gap: 20px;
-    /* align-items: center; */
 }
 
 iframe {
@@ -14,6 +13,10 @@ iframe {
 
 .span {
     grid-column: span 2;
+}
+
+.roadcut {
+    padding-top: 80px;
 }
 
 /* GALLERY */
@@ -61,10 +64,8 @@ iframe {
 
 
 @media screen and (max-width: 1300px) {
-    /* header {
-        padding: 20px 30px;
-    } */
-    /* Hide desktop nav, show mobile menu toggle */
+
+    /* Hide desktop nav, show mobile menu toggle
     .desktop-nav {
         display: none;
 
@@ -72,7 +73,7 @@ iframe {
     
     .menu-toggle {
         display: flex;
-    }
+    } */
 
     main {
         grid-template-columns: 1fr;
@@ -108,5 +109,6 @@ iframe {
 
     .content {
         width: auto;
+        padding-top: 80px;
     }
 }

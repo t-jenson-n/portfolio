@@ -22,7 +22,7 @@ body {
 
     color: var(--black);
     background-color: var(--white);
-    font-family: Helvetica, sans-serif;
+    font-family: Raleway, Helvetica, sans-serif;
     font-size: 20px;
     min-height: 100vh;
     display: grid;
@@ -43,7 +43,6 @@ a {
 }
 
 a:hover {
-    /* font-weight: 600; */
     color: var(--grey);
 }
 
@@ -86,6 +85,7 @@ a:hover {
     font-size: 30px;
     margin-right: 20px;
     align-self: baseline;
+    font-weight: 700;
 }
 
 nav {
@@ -113,11 +113,6 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
-    /* .home {
-        display: flex;
-        flex-wrap: wrap;
-        height: 20vh;
-    } */
     .banner {
         max-width: 70vw;
         max-height: 40vh;
