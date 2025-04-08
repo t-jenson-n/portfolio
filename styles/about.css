@@ -32,4 +32,7 @@ p {
     main {
         max-width: 600px;
     }
+    .headshot {
+        width: 80vw;
+    }
 }
