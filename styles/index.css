@@ -114,7 +114,7 @@ nav {
     main {
         display: flex;
         flex-wrap: wrap;
-        height: 100vh;
+        height: 20vh;
     }
     .banner {
         max-width: 70vw;
