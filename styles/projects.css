@@ -76,7 +76,7 @@ iframe {
 
     main {
         grid-template-columns: 1fr;
-        width: 80vw;
+        /* width: 80vw; */
     }
 
     .span {
@@ -94,5 +94,12 @@ iframe {
         height: auto;
         width: 500px;
         justify-self: center;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    main {
+        max-width: 600px;
     }
 }

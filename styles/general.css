@@ -394,7 +394,26 @@ button:focus, a:focus {
 
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
+        .menu-toggle{
+            padding: 5px;
+        }
+        header {
+            padding: 0;
+            margin: 20px;
+
+        }
+
+        main {
+            width: auto;
+            margin-top: 0;
+            margin-bottom: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 0;
+        
+        }
+        
 
     }
 

@@ -109,3 +109,28 @@ nav {
     object-fit: cover; 
     object-position: center;
 }
+
+@media screen and (max-width: 600px) {
+    .banner {
+        max-width: 70vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        margin: auto ;
+    }
+
+    .banner img {
+        height: 40vh;
+        width: 80vw;
+    
+        object-fit: cover; 
+        object-position: right;
+    }
+    nav {
+        padding-top: 20px;
+        flex-wrap: wrap;
+        row-gap: 0px;
+        column-gap: 500px;
+    }
+}
